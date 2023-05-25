@@ -1,0 +1,219 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    /* border: 1px solid; */
+    list-style: none;
+}
+.navbar
+{
+    height:15vh;
+    width:99.7%;
+    /* background:red; */
+    border: 1px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.navbar img{
+    width: 16%;
+    margin-left: 3%;
+    margin-top: 2.4%;
+}
+.tyb{
+    height: 10vh;
+    width: 50%;
+    margin-top: 1%;
+    margin-right: 28%;
+    float: right;
+}
+.navbar .tyb> li{
+float: left;  
+margin-left: 60px;  
+margin-top: 2%;
+position: relative;
+height: 5vh;
+}
+.navbar ul li img{
+    position: absolute;
+    height: 1.8vh;
+    width: 0%;
+    left: 0;
+    bottom: 0;transition: all 1s;
+}
+.navbar ul li:nth-child(1){
+width: 6%;
+}
+.navbar ul li:nth-child(2)
+{
+    width: 10.8%;
+}
+.navbar ul li:nth-child(3)
+{
+    width: 8.5%;
+}
+.navbar ul li:nth-child(4)
+{
+    width: 4.9%;
+}
+.navbar ul li:nth-child(5){
+     width: 3.2%;
+}
+
+.navbar ul li:hover img{
+    width: 100%;
+}
+
+
+.navul1{
+
+    /* border: 1px solid black; */
+    /* float: right; */
+    position: absolute;
+    right:50px;
+    top:40px;
+    
+}
+
+
+.navul1 >li{
+    float: left;
+    margin-left:50px;
+}
+.navbarbtn
+{
+    height:30px;
+}
+
+
+/* 
+.navbar ul li > ul li{
+     position: absolute; 
+    float: left;
+    border:1px solid;
+    height:80px;
+    width:30px;
+    
+}
+.navbar ul li > ul{
+    height: 5vh;
+    width: 30vh;
+    border: 1px solid red;
+}    */
+
+
+.herosection
+{
+    height:80vh;
+    width:99.7%;
+    border:1px solid;
+}
+.hero1
+{
+    height:80vh;
+    width:34%;
+    border:1px solid;
+    position: relative;
+    display: inline-block;
+    /* left:10%; */
+    /* top:10%; */
+}
+.hero1h1
+{
+    position: absolute;
+    font-size:35px;
+    left:7%;
+}
+.hero1pgh
+{
+    position: absolute;
+    top:30%;
+    line-height: 2;
+    font-size:20px;
+    left:7%;
+}
+.hero1img
+{
+    width:50%;
+    position: absolute;
+    top:62%;
+    left:3%;
+}
+.hero1btn
+{
+    height:9vh;
+    width:60%;
+    position: absolute;
+    top:60%;
+    left:7%;
+    border-radius:10px;
+    border:none;
+    outline-style: none;
+    background-color: #00C7AE;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+}
+.hero1list
+{
+    position: absolute;
+    left:7%;
+    bottom:10%;
+    font-size: 15px;
+}
+.hero2
+{
+    display: inline-block;
+    height:80vh;
+    width:65%;
+    border:1px solid;
+    position: relative;
+    overflow: hidden;
+    /* left:35%; */
+    /* top:-70%; */
+}
+.img1
+{
+    width:20%;
+    position: absolute;
+    top:2%;
+}
+.img2
+{
+    position: absolute;
+    width:55%;
+    left:2%;
+    bottom:4%;
+}
+.img3
+{
+    width:50%;
+    position: absolute;
+    left:57%;
+    bottom:5%;
+    
+
+}
+.img4
+{
+    width:25%;
+    position: absolute;
+    top:16%;
+    left:35%;
+}
+.img5
+{
+    width:25%;
+    position: absolute;
+    top:77%;
+    left:10%;
+}
+.img6
+{
+    width:100px;
+    transform: rotate(-120deg);
+    position: absolute;
+    left:19%;
+    top:6%;
+}
